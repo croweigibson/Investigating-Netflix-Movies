@@ -8,6 +8,7 @@ The [data](https://github.com/croweigibson/Investigating-Netflix-Movies/blob/mai
 The main objective is to see if netflix movies have gotten shorter over time. 
 ## Loading the data
 I started by installing two Python libraries that'll help with the analysis: pandas and matplotlib. Then I created a dataframe using the CSV file. 
-![](creating-dataframe.jpg)
+![](creating_dataframe.jpg)
 ## Subsetting the dataframe
 I subsetted the `netflix_df` DataFrame to retain only the rows where the type is reported as 'Movie'.
+![](subset1.jpg)
