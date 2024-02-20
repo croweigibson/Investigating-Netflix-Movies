@@ -69,7 +69,7 @@ plt.show()
 ```
 ## Results and Conclusion
 The result of our analysis of Netflix movie durations ended up being inconclusive. The duration of children's movies and documentaries does not appear to have changed much over the years.
-![](movie_dataframe.png)
+![](movie_duration.png)
 ## Future Considerations
 - One of the most important steps will be to perform statistical analysis to measure trends and fluctuations in movie lengths. 
 - Future analysis should include investigating the relationships between the lengths and genres of movies as it might also reveal interesting trends.
