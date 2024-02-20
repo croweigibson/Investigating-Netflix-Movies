@@ -5,7 +5,7 @@ A study showcasing data visualization and exploration methods to determine whet
 ## Datasource
 The [data](https://github.com/croweigibson/Investigating-Netflix-Movies/blob/main/netflix_data.csv) used in this project as well as the complete [notebook](https://github.com/croweigibson/Investigating-Netflix-Movies/blob/main/Investigating%20Netflix%20Movies.ipynb)
 ## Objective
-The main objective is to see if netflix movies have gotten shorter over time. 
+The primary objective of this study was to analyze Netflix movie duration data over time to determine whether there has been a trend towards shorter movie durations on the platform. Through data visualization and exploration methods, we aimed to uncover patterns and insights regarding changes in movie duration over the years.
 ## Loading the Data
 I started by installing two Python libraries that'll help with the analysis: pandas and matplotlib. Then I created a dataframe using the CSV file. 
 ```sh
@@ -71,7 +71,10 @@ plt.show()
 The result of our analysis of Netflix movie durations ended up being inconclusive. The duration of children's movies and documentaries does not appear to have changed much over the years.
 ![](movie_duration.png)
 ## Future Considerations
-- One of the most important steps will be to perform statistical analysis to measure trends and fluctuations in movie lengths. 
-- Future analysis should include investigating the relationships between the lengths and genres of movies as it might also reveal interesting trends.
-- Consider creating more elaborate visuals and interactive plots to improve the way findings are presented.
-- Finally, using machine learning methods to forecast the lengths of movies based on different attributes can add insightful information to the study.
+- Statistical Analysis: It will be essential to do a thorough statistical analysis in order to quantify trends and variations in movie lengths over time. A deeper understanding of the patterns found in the data can be gained by employing methods like regression analysis, time series analysis, and hypothesis testing.
+
+- Genre-Length Relationships: Future studies should look into the links between film lengths and genres. This investigation could turn up interesting patterns or connections between particular genres and how long they usually last. Comprehending genre-specific inclinations might provide insights to movie studios and film producers about audience preferences, hence optimizing content selection.
+
+- Enhanced Visualizations: Developing more complex visualizations and interactive plots should be taken into account in order to improve the way the results are presented. With the use of interactive visualizations, users can dynamically explore the data to better comprehend the trends and patterns that are shown. Network diagrams, dynamic charts, and heatmaps are a few examples of techniques that can be used to efficiently communicate complicated linkages and patterns.
+
+- Machine Learning Forecasting: Applying machine learning techniques to estimate film durations according to different characteristics can yield insightful predictions. Predictive models that estimate movie lengths based on genre, release year, director, and audience ratings can be created by utilizing algorithms like ensemble methods, regression models, and time series forecasting. Filmmakers, producers, and streaming services can use these estimates to help them make decisions about scheduling, audience engagement tactics, and content production.
